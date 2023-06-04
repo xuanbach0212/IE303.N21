@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("http://54.179.229.192:3000")
+@CrossOrigin("http://54.179.229.192:3001")
 @RestController
 @RequestMapping("/api/payment/secure")
 public class PaymentController {
