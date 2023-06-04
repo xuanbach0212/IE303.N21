@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("http://54.151.185.48:80")
+@CrossOrigin("http://54.151.185.48:3000")
 @RestController
 @RequestMapping("/api/books")
 public class BookController {

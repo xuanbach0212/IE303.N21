@@ -7,7 +7,7 @@ import com.ie303.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("http://54.151.185.48:80")
+@CrossOrigin("http://54.151.185.48:3000")
 @RestController
 @RequestMapping("/api/messages")
 public class MessagesController {
